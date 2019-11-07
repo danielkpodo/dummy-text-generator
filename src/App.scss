@@ -1,6 +1,8 @@
 @import "./sass/partials/global";
 @import "./sass/partials/variables";
 @import "./sass/partials/searchbox.scss";
+@import "./sass/partials/content";
+@import "./sass/partials/preloader";
 
 @function color($color-name) {
   @return map-get($colors, $color-name);

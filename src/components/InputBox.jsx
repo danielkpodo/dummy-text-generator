@@ -1,9 +1,9 @@
 import React from "react";
 
-function InputBox() {
+function InputBox(props) {
   return (
     <div className="input-box">
-      <input type="number" min={1} id="input" />
+      <input type="number" min={1} id="input" onChange={props.onHandleInput} />
     </div>
   );
 }
