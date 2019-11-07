@@ -27,9 +27,8 @@ class App extends Component {
           results: data,
           isLoading: false
         });
-        console.log(this.state.results);
       })
-      .catch(err => console.log("Errors Found", err));
+
   };
 
   handleInput = e => {
@@ -41,13 +40,13 @@ class App extends Component {
   handleResultsDisplay = () => {
     if (this.state.isLoading === true)
       return (
-        <div class="sk-chase">
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
+        <div className="sk-chase">
+          <div className="sk-chase-dot"></div>
+          <div className="sk-chase-dot"></div>
+          <div className="sk-chase-dot"></div>
+          <div className="sk-chase-dot"></div>
+          <div className="sk-chase-dot"></div>
+          <div className="sk-chase-dot"></div>
         </div>
       );
     return this.state.results.map((paragraph, index) => (

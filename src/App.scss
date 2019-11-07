@@ -3,6 +3,7 @@
 @import "./sass/partials/searchbox.scss";
 @import "./sass/partials/content";
 @import "./sass/partials/preloader";
+@import "./sass/partials/media";
 
 @function color($color-name) {
   @return map-get($colors, $color-name);
@@ -19,11 +20,14 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 1rem 1rem;
-  border: 1px solid #fff;
 
   h1 {
     text-align: center;
     font-size: 5rem;
     font-weight: 400;
+    color: color(secondary-color);
+    @include mobile {
+      font-size: 2.5rem;
+    }
   }
 }
