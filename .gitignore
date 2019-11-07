@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/src/.sass-cache
+/src/App.css.map
 /.pnp
 .pnp.js
 
