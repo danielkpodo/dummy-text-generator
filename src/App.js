@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import InputBox from "./components/InputBox";
 import "./App.css";
 
 class App extends Component {
@@ -7,7 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Hello World!</h1>
+        <h1>Dummy Text Generator</h1>
+        <InputBox />
       </div>
     );
   }

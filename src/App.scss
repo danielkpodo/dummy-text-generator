@@ -1,22 +1,27 @@
-.App {
-  text-align: center;
+@import "./sass/partials/global";
+@import "./sass/partials/variables";
+@import "./sass/partials/searchbox.scss";
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  background-color: color(bgcolor);
+  color: color(primary-color);
+  font-family: $body-font;
+  font-size: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  border: 1px solid #fff;
 
-.App-link {
-  color: #09d3ac;
+  h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 400;
+  }
 }
