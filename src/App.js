@@ -27,8 +27,7 @@ class App extends Component {
           results: data,
           isLoading: false
         });
-      })
-
+      });
   };
 
   handleInput = e => {
@@ -58,6 +57,7 @@ class App extends Component {
     return (
       <div className="container">
         <h1>Dummy Text Generator</h1>
+        <p id="tagline">Real time text generation !</p>
         <InputBox onHandleInput={this.handleInput} />
         <> {this.handleResultsDisplay()}</>
       </div>

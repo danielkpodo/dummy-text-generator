@@ -19,6 +19,9 @@ html {
     outline: none;
     box-shadow: 1px 1px 2px #ddd; }
 
+::placeholder {
+  opacity: 0.5; }
+
 .page-content {
   max-width: 800px;
   margin: 0 auto;
@@ -105,7 +108,9 @@ body {
   background-color: #262335;
   color: #fff;
   font-family: "Nunito", sans-serif;
-  font-size: 100%; }
+  font-size: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialised; }
 
 .container {
   max-width: 1100px;
@@ -116,8 +121,15 @@ body {
     font-size: 5rem;
     font-weight: 400;
     color: goldenrod; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 950px) {
       .container h1 {
         font-size: 2.5rem; } }
+    @media screen and (max-width: 500px) {
+      .container h1 {
+        font-size: 1.8rem; } }
+  .container #tagline {
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "Comic Sans Ms"; }
 
 /*# sourceMappingURL=App.css.map */
