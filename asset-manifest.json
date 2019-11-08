@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dummy-text-generator/static/css/main.49760eee.chunk.css",
+    "main.js": "/dummy-text-generator/static/js/main.ffdfac33.chunk.js",
+    "main.js.map": "/dummy-text-generator/static/js/main.ffdfac33.chunk.js.map",
+    "runtime-main.js": "/dummy-text-generator/static/js/runtime-main.93451447.js",
+    "runtime-main.js.map": "/dummy-text-generator/static/js/runtime-main.93451447.js.map",
+    "static/js/2.bac227ea.chunk.js": "/dummy-text-generator/static/js/2.bac227ea.chunk.js",
+    "static/js/2.bac227ea.chunk.js.map": "/dummy-text-generator/static/js/2.bac227ea.chunk.js.map",
+    "index.html": "/dummy-text-generator/index.html",
+    "precache-manifest.a4f1096a0ed0fd52c9d84f980457300b.js": "/dummy-text-generator/precache-manifest.a4f1096a0ed0fd52c9d84f980457300b.js",
+    "service-worker.js": "/dummy-text-generator/service-worker.js",
+    "static/css/main.49760eee.chunk.css.map": "/dummy-text-generator/static/css/main.49760eee.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93451447.js",
+    "static/js/2.bac227ea.chunk.js",
+    "static/css/main.49760eee.chunk.css",
+    "static/js/main.ffdfac33.chunk.js"
+  ]
+}
